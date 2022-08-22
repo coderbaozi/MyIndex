@@ -28,7 +28,7 @@
         <div :class="['hello', { hello_bottom: flag }]">
           <div>{{ slogan[i] }}</div>
           <div class="hello_bottom_text">
-            点击以访问 {{ $config.BLOG_NAME }}
+             {{ $config.BLOG_NAME }}
           </div>
         </div>
       </div>
@@ -216,7 +216,7 @@ export default {
       }
       .hello {
         color: #ffffff;
-        width: 18.75rem;
+        width: 30rem;
         text-align: center;
         position: absolute;
         transform: translate(-50%, -50%);
